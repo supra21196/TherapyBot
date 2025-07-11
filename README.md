@@ -4,6 +4,12 @@ TherapyBot uses local AI processing to understand your emotional state and retri
 
 Built for anyone who's ever felt overwhelmed and just needed to remember how to breathe, this project represents my commitment to making mental health resources freely accessible through thoughtful application of data science principles.
 
+## Project Overview:
+### Data Architecture:
+The system uses curated evidence-based therapeutic techniques stored locally with sentence transformers (all-MiniLM-L6-v2) for 384-dimensional semantic embeddings. I manually curated the knowledge base rather than web scraping to ensure safety and quality. The intelligent routing system integrates external APIs for current research (PubMed), condition facts, and local resources while keeping personal support queries local.
+### Performance Tracking:
+Each interaction generates confidence scores through cosine similarity search, processing time metrics, and user feedback ratings (1-5 stars). The SQLite database captures query patterns, source performance analysis, and effectiveness correlations while maintaining complete local privacy - no external data sharing.
+
 ## What This Actually Does
 
 Your personal mental health toolkit that remembers everything for you
