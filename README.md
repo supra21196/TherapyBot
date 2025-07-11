@@ -1,4 +1,8 @@
-A smart companion that helps access coping strategies, breathing techniques, and therapeutic guidance when you need them most.*
+This is a passion project of mine that combines two domains: data science and mental health advocacy. This project applies my data science knowledge towards creating a personalized therapeutic support system that helps people access coping strategies and breathing techniques when they need them most.
+
+TherapyBot uses local AI processing to understand your emotional state and retrieves specific, evidence-based therapeutic techniques - not just generic advice. It learns from user feedback to personalize responses while maintaining complete privacy through local data storage.
+
+Built for anyone who's ever felt overwhelmed and just needed to remember how to breathe, this project represents my commitment to making mental health resources freely accessible through thoughtful application of data science principles.
 
 ## What This Actually Does
 
